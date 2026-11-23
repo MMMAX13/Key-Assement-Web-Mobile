@@ -1,0 +1,11 @@
+$kind: http-request
+description: ""
+url: http://localhost/inventory-project/backend-web/api/products.php
+method: PUT
+body:
+  type: urlencoded
+  content:
+    id: "8"
+    user_id: "1"
+    quantity: "5"
+order: 10000

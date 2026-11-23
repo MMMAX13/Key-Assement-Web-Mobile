@@ -1,0 +1,19 @@
+$kind: http-request
+description: ""
+url: "{{baseUrl}}/inventory-project/backend-web/api/login.php?=&"
+method: POST
+queryParams:
+  - key: ""
+    value: ""
+    disabled: false
+    description: ""
+  - key: ""
+    value: null
+    disabled: false
+    description: ""
+body:
+  type: urlencoded
+  content:
+    email: ""
+    password: ""
+order: 3000

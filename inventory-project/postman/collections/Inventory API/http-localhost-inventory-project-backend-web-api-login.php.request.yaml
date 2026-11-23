@@ -1,0 +1,11 @@
+$kind: http-request
+name: http://localhost/inventory-project/backend-web/api/login.php
+description: 'Generated from cURL: curl -X POST "http://localhost/inventory-project/backend-web/api/login.php" -d "email=admin@inventory.test&password=password"'
+url: "{{baseUrl}}/inventory-project/backend-web/api/login.php"
+method: POST
+body:
+  type: urlencoded
+  content:
+    email: admin@inventory.test
+    password: password
+order: 1000

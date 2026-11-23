@@ -1,0 +1,7 @@
+$kind: http-request
+description: ""
+url: http://localhost/inventory-project/backend-web/api/products.php?id=8
+method: DELETE
+queryParams:
+  id: "8"
+order: 12000

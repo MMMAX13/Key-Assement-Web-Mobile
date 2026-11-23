@@ -1,0 +1,10 @@
+$kind: http-request
+description: ""
+url: http://localhost/inventory-project/backend-web/api/products.php?id=9999
+method: GET
+queryParams:
+  - key: id
+    value: "9999"
+    disabled: false
+    description: ""
+order: 7000

@@ -1,0 +1,49 @@
+$kind: http-request
+description: ""
+url: http://localhost/inventory-project/backend-web/api/products.php
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: name
+      value: Can Beans
+      description: ""
+      disabled: false
+    - type: text
+      key: sku
+      value: FDS-003
+      description: ""
+      disabled: false
+    - type: text
+      key: category_id
+      value: "2"
+      description: ""
+      disabled: false
+    - type: text
+      key: unit_price
+      value: "2.50"
+      description: ""
+      disabled: false
+    - type: text
+      key: quantity
+      value: "100"
+      description: ""
+      disabled: false
+    - type: text
+      key: min_stock_threshold
+      value: "20"
+      description: ""
+      disabled: false
+    - type: text
+      key: user_id
+      value: "1"
+      description: ""
+      disabled: false
+    - type: file
+      key: image
+      src:
+        - /C:/Users/werne/Downloads/can_beans.jpg
+      description: ""
+      disabled: false
+order: 8000

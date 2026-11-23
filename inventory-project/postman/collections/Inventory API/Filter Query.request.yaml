@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: http://localhost/inventory-project/backend-web/api/products.php?category_id=2&search=Rice
+method: GET
+queryParams:
+  - key: category_id
+    value: "2"
+    disabled: false
+    description: ""
+  - key: search
+    value: Rice
+    disabled: false
+    description: ""
+body:
+  type: urlencoded
+order: 6000

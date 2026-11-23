@@ -1,0 +1,10 @@
+$kind: http-request
+description: ""
+url: http://localhost/inventory-project/backend-web/api/login.php
+method: POST
+body:
+  type: urlencoded
+  content:
+    email: admin@inventory.test
+    password: wrong
+order: 2000
